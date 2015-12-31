@@ -1,14 +1,26 @@
 body {
+	background: url("../images/36.jpg");
+	background-repeat: no-repeat;
+	background-color: white;
 	font-family: 'Arimo', sans-serif;
-	margin: 20px 0 0 0;
+	margin: 40px 0 40px 0;
 	padding: 0;
 	text-align: center;
+}
+#wrapper {
+	width: 730px;
+	margin: 0 auto;
+	padding: 40px;
+	background: white;
+	border-radius: 7px;
 }
 #wrapper > input {
 	width: 400px;
 	padding: 11px;
 }
 #wrapper > h1 {
+	margin: 0 0 60px 0;
+	padding: 0;
 	font-size: 40px;
 }
 #wrapper > input {
@@ -43,6 +55,57 @@ body {
 	color: gray;
 	letter-spacing: 1px;
 }
+footer {
+	margin: 10px 5px;
+}
+footer > p:first-of-type {
+	width: 580px;
+	margin: 0 auto;
+	padding: 7px 0;
+	font-weight: bold;
+	background: white;
+	border-radius: 3px;
+	letter-spacing: 0.5px;
+}
+footer > p:last-of-type {
+	width: 380px;
+	margin: 0 auto;
+	padding: 7px 0;
+	font-weight: bold;
+	background: white;
+	border-radius: 3px;
+	letter-spacing: 0.5px;
+	display: none;
+}
+footer > p > a {
+	color: #ac5b3d;
+	text-decoration: none;
+}
+@media screen and (max-width: 860px) {
+	#wrapper {
+		width: 560px;
+	}
+}
+@media screen and (max-width: 710px) {
+	#wrapper {
+		width: 360px;
+	}
+	#wrapper > h1 {
+		font-size: 37px;
+	}
+	#wrapper > input {
+		width: 330px;
+	}
+	#wrapper > div {
+		width: 330px;
+	}
+	footer > p:first-of-type {
+		display: none;
+	}
+	footer > p:last-of-type {
+		display: block;
+	}
+}
 ::-webkit-input-placeholder {
 	letter-spacing: 1px;
 	font-family: 'Arimo', sans-serif;
@@ -61,4 +124,8 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+}
+input, select, textarea {
+	font-family: 'Arimo', sans-serif;
+	letter-spacing: 1px;
 }
