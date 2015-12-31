@@ -1,0 +1,64 @@
+body {
+	font-family: 'Arimo', sans-serif;
+	margin: 20px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+#wrapper > input {
+	width: 400px;
+	padding: 11px;
+}
+#wrapper > h1 {
+	font-size: 40px;
+}
+#wrapper > input {
+	margin: 0 0 10px 0;
+	border-radius: 3px;
+	border: 1px solid #e4e4e4;
+}
+#wrapper > button {
+	font-family: 'Arimo', sans-serif;
+	letter-spacing: 0.8px;
+	margin: 1px 0 30px 0;
+	padding: 8px 21px;
+	background: #f7f7f7;
+	border-radius: 2px;
+	border: 1px solid #e4e4e4;
+	color: gray;
+	cursor: pointer;
+}
+#wrapper > button:hover {
+	transition: all 0.8s ease;
+	background: rgba(247, 247, 247, 0.1);
+}
+#wrapper > div {
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px 15px;
+	height: 200px;
+	background: #f7f7f7;
+	border-radius: 5px;
+	font-size: 19px;
+	text-align: left;
+	color: gray;
+	letter-spacing: 1px;
+}
+::-webkit-input-placeholder {
+	letter-spacing: 1px;
+	font-family: 'Arimo', sans-serif;
+}
+:-moz-placeholder {
+	font-family: 'Arimo', sans-serif;
+}
+::-moz-placeholder {
+	font-family: 'Arimo', sans-serif;
+}
+:-ms-input-placeholder {  
+	font-family: 'Arimo', sans-serif;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
