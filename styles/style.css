@@ -8,11 +8,22 @@ body {
 	text-align: center;
 }
 #wrapper {
+	position: relative;
 	width: 730px;
 	margin: 0 auto;
 	padding: 40px;
 	background: white;
 	border-radius: 7px;
+}
+img {
+	display: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 70px;
+}
+#wrapper:last-of-type {
+	display: none;
 }
 #wrapper > input {
 	width: 400px;
